@@ -1,27 +1,16 @@
 {
   "name": "js-fs-tree",
   "version": "1.0.0",
-  "description": "My app, which shows a file structure as a tree",
-  "type": "module",
   "main": "index.js",
-  "exports": "./index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/kabatsyura/js-fs-tree.git"
-  },
-  "author": "Dmitrii Kabatsiura",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kabatsyura/js-fs-tree/issues"
-  },
-  "homepage": "https://github.com/kabatsyura/js-fs-tree#readme",
+  "description": "",
   "dependencies": {
-    "@hexlet/immutable-fs-trees": "^0.7.1"
-  },
-  "devDependencies": {
+    "@hexlet/immutable-fs-trees": "^0.7.1",
     "eslint": "^9.1.0"
   }
 }
