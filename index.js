@@ -14,7 +14,7 @@ const callbackFn = (node) => {
   return { ...node, name: newName };
 };
 
-console.log(map(callbackFn, tree));
+console.log(JSON.stringify(map(callbackFn, tree), null, '\t'));
 // {
 //   name: 'ETC',
 //   children: [
